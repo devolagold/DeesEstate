@@ -37,6 +37,9 @@ body, html{
 .hero-image{
     border-top-right-radius: 200px;
     border-bottom-left-radius: 200px;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .search-section{
@@ -79,6 +82,9 @@ body, html{
 .featured-image{
     border-top-right-radius: 85px;
     border-bottom-left-radius: 85px;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .featured-card{
@@ -108,6 +114,16 @@ body, html{
 
 .links >a{
     color: white;
+}
+
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 991px) {

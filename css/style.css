@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Space_Grotesk';
-    src: url("font/Space_Grotesk/static/SpaceGrotesk-Medium.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
 @font-face {
     font-family: 'Nunito';

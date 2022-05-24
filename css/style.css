@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Space_Grotesk';
+    src: url("/dees estate/font/Space_Grotesk/static/SpaceGrotesk-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url("/dees estate/font/Nunito/static/Nunito-Light.ttf");
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Space_Grotesk';
+    background-color: #FAFAFA;
+    color: #000000;
+    scroll-behavior: smooth;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #0F298B;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000000;
+}
+
+.btn-blue{
+    background-color: #2549D3;
+    color: #FFFFFF;
+    box-shadow: 24px 24px 48px rgba(0, 0, 0, 0.1);
+}
+
+.text-blue{
+    color: #2549D3;
+}
+
+.hero-image{
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+
+.search-section{
+    background-color: white;
+    box-shadow: 24px 24px 48px rgba(37, 73, 211, 0.05);
+    border-radius: 28px;
+}
+
+.search{
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: #0F298B;
+    font-size: 18px;
+}
+
+.option{
+    color: #323232;
+}
+
+.card{
+    border: none;
+}
+
+.card:hover{
+    box-shadow: 12.3472px 12.3472px 24.6944px rgba(0, 0, 0, 0.05);
+}
+
+.align{
+    display: flex; 
+    align-items: center;
+}
+
+.spacing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-image{
+    border-top-right-radius: 85px;
+    border-bottom-left-radius: 85px;
+}
+
+.featured-card{
+    border-radius: 0px 40px;
+}
+
+.testimonial-card{
+    border-radius: 20px;
+}
+
+.testimonial-subtext{
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #0F298B;
+}
+
+.nunito{
+    font-family: 'Nunito';
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links >a{
+    color: white;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar{
+        padding: 15px !important;
+    }
+
+    .hero-section{
+        padding: 15px !important;
+    }
+
+    .navbar-brand >img{
+        width: 80px;
+    }
+
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        margin: 0 !important;
+    }
+
+    .hero-text{
+        font-size: 32px;
+        margin-top: 0px;
+    }
+    .hero-subtext{
+        font-size: 14px;
+    }
+
+    .hero-button{
+        margin: 0 !important;
+    }
+
+    .hero-image{
+        margin-top: 20px;
+        border-top-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+    }
+
+    .search-section{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .seacrhSection{
+        padding: 0px !important;
+        margin-top: 45px;
+    }
+
+    .how-section{
+        margin: 0px !important;
+        margin-top: 40px !important;
+    }
+
+    .why-us{
+        margin: 5px !important;
+        padding: 0px !important;
+    }
+
+    .why-us-header{
+        padding-top: 0px !important;
+        font-size: 24px;
+    }
+
+    .why-us-text{
+        padding: 0px !important;
+    }
+
+    .align{
+        font-size: 14px;
+    }
+
+    .tick{
+        width: 15px;
+    }
+
+    .padding{
+        padding: 5px 0px 5px 0px !important;
+    }
+
+    .features{
+        padding: 12px !important;
+        margin: 0px !important;
+    }
+
+    .feature-text{
+        font-size: 26px;
+    }
+
+    .feature-subtext{
+        font-size: 16px;
+    }
+
+    .featured-image{
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .featured-card{
+        border-radius: 0px 20px;
+    }
+
+    .footer-padding{
+        padding: 25px;
+    }
+
+    .align-center{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1148px) {
+
+}

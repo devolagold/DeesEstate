@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Space_Grotesk';
-    src: url("/dees estate/font/Space_Grotesk/static/SpaceGrotesk-Medium.ttf");
+    src: url("font/Space_Grotesk/static/SpaceGrotesk-Medium.ttf");
 }
 
 @font-face {
     font-family: 'Nunito';
-    src: url("/dees estate/font/Nunito/static/Nunito-Light.ttf");
+    src: url("font/Nunito/static/Nunito-Light.ttf");
 }
 
 body, html{
